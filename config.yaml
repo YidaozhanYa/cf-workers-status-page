@@ -47,14 +47,6 @@ monitors:
     followRedirect: true
     linkable: false
 
-  - id: qexo
-    name: '博客后台面板'
-    description: '博客后台面板 (Qexo)'
-    url: 'https://qexo.yidaozhan.top/'
-    method: GET
-    followRedirect: true
-    linkable: false
-   
   - id: az1
     name: 'QQ 机器人'
     description: '群内 QQ 机器人 (日本东京微软云)'
