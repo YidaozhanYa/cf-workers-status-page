@@ -1,39 +1,72 @@
 settings:
-  title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
+  title: '一刀斩の小窝 - 全站状态监控'
+  url: 'https://status.yidaozhan.top/' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
-  allmonitorsOperational: 'All Systems Operational'
-  notAllmonitorsOperational: 'Not All Systems Operational'
-  monitorLabelOperational: 'Operational'
-  monitorLabelNotOperational: 'Not Operational'
-  monitorLabelNoData: 'No data'
-  dayInHistogramNoData: 'No data'
-  dayInHistogramOperational: 'All good'
-  dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
+  allmonitorsOperational: '网站一切正常！'
+  notAllmonitorsOperational: '网站略微波动 ...'
+  monitorLabelOperational: '网站基本可用 ...'
+  monitorLabelNotOperational: '网站炸了！'
+  monitorLabelNoData: '无数据'
+  dayInHistogramNoData: '无数据'
+  dayInHistogramOperational: '一切正常'
+  dayInHistogramNotOperational: ' 次炸服' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+  - id: blog
+    name: '博客 (blog.yidaozhan.top)'
+    description: '我的个人博客 (Vercel)'
+    url: 'https://blog.yidaozhan.top/'
     method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    followRedirect: true
+    linkable: false
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: alist
+    name: '文件分享 (file.yidaozhan.top)'
+    description: '文件分享站 (Alist / 阿里云盘 / OneDrive)'
+    url: 'https://file.yidaozhan.top/'
     method: GET
-    expectStatus: 200
+    followRedirect: true
+    linkable: false
+    
+  - id: om
+    name: '文件分享 2 (pan.yidaozhan.top)'
+    description: '文件分享站 (OneManager)'
+    url: 'https://pan.yidaozhan.top/'
+    method: GET
+    followRedirect: true
+    linkable: false
+    
+  - id: analytics
+    name: '访问量统计 (analytics.yidaozhan.top)'
+    description: '访问量统计 (Umami)'
+    url: 'https://analytics.yidaozhan.top/'
+    method: GET
+    followRedirect: true
+    linkable: false
+
+  - id: qexo
+    name: '博客后台面板'
+    description: '博客后台面板 (Qexo)'
+    url: 'https://qexo.yidaozhan.top/'
+    method: GET
+    followRedirect: true
+    linkable: false
+    
+  - id: rp
+    name: '反向代理 (rp.ydz1.gq)'
+    description: '通用反代，用于克隆 / 下载等'
+    url: 'https://rp.ydz1.gq/'
+    method: GET
+    followRedirect: true
+    linkable: false
+   
+  - id: az1
+    name: 'QQ 机器人'
+    description: '群内 QQ 机器人 (日本东京微软云)'
+    url: 'https://azure.yidaozhan.ga/'
+    method: GET
+    followRedirect: true
+    linkable: false
