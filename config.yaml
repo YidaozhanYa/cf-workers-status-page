@@ -6,8 +6,8 @@ settings:
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: '网站一切正常！'
-  notAllmonitorsOperational: '网站略微波动 ...'
-  monitorLabelOperational: '网站基本可用 ...'
+  notAllmonitorsOperational: '网站部分炸服 ...'
+  monitorLabelOperational: '网站可以访问'
   monitorLabelNotOperational: '网站炸了！'
   monitorLabelNoData: '无数据'
   dayInHistogramNoData: '无数据'
@@ -51,14 +51,6 @@ monitors:
     name: '博客后台面板'
     description: '博客后台面板 (Qexo)'
     url: 'https://qexo.yidaozhan.top/'
-    method: GET
-    followRedirect: true
-    linkable: false
-    
-  - id: rp
-    name: '反向代理 (rp.ydz1.gq)'
-    description: '通用反代，用于克隆 / 下载等'
-    url: 'https://rp.ydz1.gq/'
     method: GET
     followRedirect: true
     linkable: false
