@@ -34,7 +34,7 @@ monitors:
   - id: om
     name: '文件分享 2 (pan.yidaozhan.top)'
     description: '文件分享站 (OneManager)'
-    url: 'https://pan.yidaozhan.top/'
+    url: 'https://pan.yidaozhan.top/od_e5/'
     method: GET
     followRedirect: true
     linkable: false
