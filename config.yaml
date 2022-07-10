@@ -49,8 +49,8 @@ monitors:
 
   - id: az1
     name: 'QQ 机器人'
-    description: '群内 QQ 机器人 (日本东京微软云)'
-    url: 'https://azure.yidaozhan.ga/'
+    description: '群内 QQ 机器人 (日本东京微软云，和文件分享在同一台服务器)'
+    url: 'http://azure2.yidaozhan.ga/'
     method: GET
     followRedirect: true
     linkable: false
