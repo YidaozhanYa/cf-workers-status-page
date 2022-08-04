@@ -39,14 +39,6 @@ monitors:
     followRedirect: true
     linkable: false
     
-  - id: analytics
-    name: '访问量统计 (analytics.yidaozhan.top)'
-    description: '访问量统计 (Umami)'
-    url: 'https://analytics.yidaozhan.top/'
-    method: GET
-    followRedirect: true
-    linkable: false
-
   - id: az1
     name: 'QQ 机器人'
     description: '群内 QQ 机器人 (日本东京微软云，和文件分享在同一台服务器)'
@@ -54,3 +46,20 @@ monitors:
     method: GET
     followRedirect: true
     linkable: false
+
+  - id: plane
+    name: '飞机'
+    description: '直通日本'
+    url: 'https://blog.azure.yidaozhan.top/'
+    method: GET
+    followRedirect: true
+    linkable: false
+    
+  - id: nsemuhelper_aws1
+    name: 'NS模拟器助手 AWS1'
+    description: '下载源'
+    url: 'https://ghapi.aws1.nsemuhelper.yidaozhan.top/firmware_hashs'
+    method: GET
+    followRedirect: true
+    linkable: false
+
