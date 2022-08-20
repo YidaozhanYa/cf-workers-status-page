@@ -46,20 +46,3 @@ monitors:
     method: GET
     followRedirect: true
     linkable: false
-
-  - id: plane
-    name: '飞机'
-    description: '直通日本'
-    url: 'https://blog.azure.yidaozhan.top/'
-    method: GET
-    followRedirect: true
-    linkable: false
-    
-  - id: nsemuhelper_aws1
-    name: 'NS模拟器助手 AWS1'
-    description: '下载源'
-    url: 'https://ghapi.aws1.nsemuhelper.yidaozhan.top/firmware_hashs'
-    method: GET
-    followRedirect: true
-    linkable: false
-
