@@ -46,3 +46,11 @@ monitors:
     method: GET
     followRedirect: true
     linkable: false
+    
+  - id: enginetribe
+    name: '引擎部落 (enginetribe.gq)'
+    description: 'SMM:WE 全球关卡重新实现'
+    url: 'http://enginetribe.gq:25019/'
+    method: GET
+    followRedirect: true
+    linkable: true
