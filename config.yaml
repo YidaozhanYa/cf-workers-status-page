@@ -50,7 +50,15 @@ monitors:
   - id: enginetribe
     name: '引擎部落 (enginetribe.gq)'
     description: 'SMM:WE 全球关卡重新实现'
-    url: 'http://enginetribe.gq:25019/'
+    url: 'http://juego.enginetribe.gq/'
     method: GET
     followRedirect: true
-    linkable: true
+    linkable: true    
+    
+  - id: enginetribestroage
+    name: '引擎部落关卡存储'
+    description: '基于 OneManager'
+    url: 'https://storage-v2.enginetribe.gq/'
+    method: GET
+    followRedirect: true
+    linkable: false
