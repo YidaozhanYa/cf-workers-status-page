@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: blog
     name: '博客 (blog.yidaozhan.top)'
-    description: '我的个人博客 (Vercel)'
+    description: '我的个人博客'
     url: 'https://blog.yidaozhan.top/'
     method: GET
     followRedirect: true
@@ -39,26 +39,26 @@ monitors:
     followRedirect: true
     linkable: false
     
-  - id: az1
-    name: 'QQ 机器人'
-    description: '群内 QQ 机器人 (日本东京微软云，和文件分享在同一台服务器)'
-    url: 'http://azure2.yidaozhan.ga/'
-    method: GET
-    followRedirect: true
-    linkable: false
+  #- id: az1
+#    name: 'QQ 机器人'
+#    description: '群内 QQ 机器人 (日本东京微软云，和文件分享在同一台服务器)'
+#    url: 'http://azure2.yidaozhan.ga/'
+#    method: GET
+#    followRedirect: true
+#    linkable: false
     
-  - id: enginetribe
-    name: '引擎部落 (enginetribe.gq)'
-    description: 'SMM:WE 全球关卡重新实现'
-    url: 'http://juego.enginetribe.gq/'
-    method: GET
-    followRedirect: true
-    linkable: true    
+  #- id: enginetribe
+#    name: '引擎部落 (enginetribe.gq)'
+#    description: 'SMM:WE 全球关卡重新实现'
+#    url: 'http://juego.enginetribe.gq/'
+#    method: GET
+3    followRedirect: true
+#    linkable: true    
     
-  - id: enginetribestroage
-    name: '引擎部落关卡存储'
-    description: '基于 OneManager'
-    url: 'https://storage-v2.enginetribe.gq/'
-    method: GET
-    followRedirect: true
-    linkable: false
+#  - id: enginetribestroage
+#    name: '引擎部落关卡存储'
+#    description: '基于 OneManager'
+#    url: 'https://storage-v2.enginetribe.gq/'
+#    method: GET
+#    followRedirect: true
+#    linkable: false
