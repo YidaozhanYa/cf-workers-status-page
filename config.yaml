@@ -47,13 +47,13 @@ monitors:
 #    followRedirect: true
 #    linkable: false
     
-  #- id: enginetribe
-#    name: '引擎部落 (enginetribe.gq)'
-#    description: 'SMM:WE 全球关卡重新实现'
-#    url: 'http://juego.enginetribe.gq/'
-#    method: GET
-3    followRedirect: true
-#    linkable: true    
+  - id: enginetribe
+    name: '引擎部落 (enginetribe.gq)'
+    description: 'SMM:WE 全球关卡在线服务'
+    url: 'http://enginetribe.gq:30000/server_stats'
+    method: GET
+    followRedirect: true
+    linkable: true    
     
 #  - id: enginetribestroage
 #    name: '引擎部落关卡存储'
