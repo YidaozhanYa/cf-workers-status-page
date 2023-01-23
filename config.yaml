@@ -16,28 +16,28 @@ settings:
 
 monitors:
   - id: blog
-    name: '博客 (blog.yidaozhan.top)'
+    name: '博客'
     description: '我的个人博客'
     url: 'https://blog.yidaozhan.top/'
     method: GET
     followRedirect: true
-    linkable: false
+    linkable: true
 
   - id: alist
-    name: '文件分享 (file.yidaozhan.top)'
+    name: '文件分享'
     description: '文件分享站 (Alist / 阿里云盘 / OneDrive)'
     url: 'https://file.yidaozhan.top/'
     method: GET
     followRedirect: true
-    linkable: false
+    linkable: true
     
   - id: om
-    name: '文件分享 2 (pan.yidaozhan.top)'
+    name: '文件分享 2'
     description: '文件分享站 (OneManager)'
     url: 'https://pan.yidaozhan.top/od_e5/'
     method: GET
     followRedirect: true
-    linkable: false
+    linkable: true
     
   #- id: az1
 #    name: 'QQ 机器人'
@@ -48,12 +48,12 @@ monitors:
 #    linkable: false
     
   - id: enginetribe
-    name: '引擎部落 (enginetribe.gq)'
+    name: '引擎部落'
     description: 'SMM:WE 全球关卡在线服务'
     url: 'http://enginetribe.gq:30000/server_stats'
     method: GET
     followRedirect: true
-    linkable: true    
+    linkable: true
     
 #  - id: enginetribestroage
 #    name: '引擎部落关卡存储'
