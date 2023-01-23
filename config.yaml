@@ -50,7 +50,7 @@ monitors:
   - id: enginetribe
     name: '引擎部落'
     description: 'SMM:WE 全球关卡在线服务'
-    url: 'http://enginetribe.gq:30000/server_stats'
+    url: 'http://enginetribe.gq:30000/'
     method: GET
     followRedirect: true
     linkable: true
