@@ -6,13 +6,13 @@ settings:
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: '网站一切正常！'
-  notAllmonitorsOperational: '网站部分炸服 ...'
+  notAllmonitorsOperational: '网站部分不可用 ...'
   monitorLabelOperational: '网站可以访问'
   monitorLabelNotOperational: '网站炸了！'
   monitorLabelNoData: '无数据'
   dayInHistogramNoData: '无数据'
   dayInHistogramOperational: '一切正常'
-  dayInHistogramNotOperational: ' 次炸服' # xx incident(s) recorded
+  dayInHistogramNotOperational: ' 次事故' # xx incident(s) recorded
 
 monitors:
   - id: blog
@@ -25,16 +25,8 @@ monitors:
 
   - id: alist
     name: '文件分享'
-    description: '文件分享站 (Alist / 阿里云盘 / OneDrive)'
+    description: '文件分享站 (AList / OneDrive)'
     url: 'https://file.yidaozhan.top/'
-    method: GET
-    followRedirect: true
-    linkable: true
-    
-  - id: om
-    name: '文件分享 2'
-    description: '文件分享站 (OneManager)'
-    url: 'https://pan.yidaozhan.top/od_e5/'
     method: GET
     followRedirect: true
     linkable: true
