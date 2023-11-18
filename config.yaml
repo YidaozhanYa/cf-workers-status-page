@@ -1,5 +1,5 @@
 settings:
-  title: '一刀斩の小窝 - 全站状态监控'
+  title: '千雪的咖啡厅 - 全站状态监控'
   url: 'https://status.chyk.ink/' # used for Slack messages
   logo: tudou.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
