@@ -1,6 +1,6 @@
 settings:
   title: '一刀斩の小窝 - 全站状态监控'
-  url: 'https://status.yidaozhan.top/' # used for Slack messages
+  url: 'https://status.chyk.ink/' # used for Slack messages
   logo: tudou.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -18,7 +18,7 @@ monitors:
   - id: blog
     name: '博客'
     description: '我的个人博客'
-    url: 'https://blog.yidaozhan.top/'
+    url: 'https://blog.chyk.ink/'
     method: GET
     followRedirect: true
     linkable: true
@@ -26,7 +26,7 @@ monitors:
   - id: alist
     name: '文件分享'
     description: '文件分享站 (AList / OneDrive)'
-    url: 'https://file.yidaozhan.top/'
+    url: 'https://file.chyk.ink/'
     method: GET
     followRedirect: true
     linkable: true
